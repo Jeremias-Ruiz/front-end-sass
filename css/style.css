@@ -1,0 +1,157 @@
+.line-container {
+  position: relative;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.line-container svg {
+  display: inline-block;
+  height: 100%;
+}
+
+.img-fixed {
+  width: 85%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (min-width: 480px) {
+  .img-fixed {
+    width: 30%;
+    left: 30%;
+    top: -50px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .img-fixed {
+    width: 60%;
+    left: 12%;
+    top: -220px;
+  }
+}
+
+@media screen and (min-width: 667px) {
+  .img-fixed {
+    width: 35%;
+    left: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .img-fixed {
+    width: 70%;
+    left: 8%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .img-fixed {
+    width: 75%;
+    left: 10%;
+    top: -300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img-fixed {
+    width: 50%;
+    left: 18%;
+    top: -450px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  -webkit-transform: rotate(-90deg) translateX(-100vh);
+          transform: rotate(-90deg) translateX(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  scrollbar-width: 0;
+  -ms-overflow-style: none;
+}
+
+.outer-wrapper .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 400vw;
+  -webkit-transform: rotate(90deg) translateY(-100vh);
+          transform: rotate(90deg) translateY(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.outer-wrapper .wrapper .slider {
+  height: 100vh;
+  width: 100vw;
+  position: inherit;
+}
+
+.outer-wrapper .wrapper .four {
+  background-color: #0f0f0f;
+}
+
+.outer-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .two {
+    margin-left: -4%;
+  }
+  .three {
+    margin-left: -4%;
+  }
+  .four {
+    margin-left: 8%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

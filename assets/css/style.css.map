@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AEMA,AAAA,CAAC,CAAA;EACG,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI,CAAA;EACA,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,IAAI,CAAA;EACA,gBAAgB,EAdF,OAAO;EAerB,WAAW,EClBA,QAAQ,EAAE,UAAU;CDmBlC",
+    "sources": [
+        "../assets/sass/style.scss",
+        "../assets/sass/_components.scss",
+        "../assets/sass/_root.scss",
+        "../assets/sass/_typo.scss",
+        "../assets/sass/_typo.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
